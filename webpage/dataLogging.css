@@ -1,0 +1,95 @@
+.logging-widget
+{
+	display:inline;
+	margin:15px;
+}
+
+#video-frame
+{
+	float: right;
+	width: 20%
+}
+
+#logging-status
+{
+	margin-left:0px;
+}
+
+#toggle-logging-button
+{
+	margin-right:0px;
+}
+
+#data-logging
+{
+	background-color:#555;
+	width:68%;
+	height:95%;
+	position: absolute;
+	min-height:300px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+#graphs-container
+{	
+	position:absolute;
+	width: 100%;
+	
+	top:0px;
+	bottom: 50px;
+	
+	background-color:#f00;
+}
+
+.graph-title
+{
+    /* styling bellow */  
+	font-size: 50px;
+    font-family: 'tahoma';  
+    color:black;  
+	z-index:2;
+    opacity:0.2; /* transparency */  
+    filter:alpha(opacity=20); /* IE transparency */ 
+}
+
+#graphs
+{
+	position:absolute;
+	background-color:#0f0;
+	width: 90%;	
+	margin-left:5%;
+	margin-right:5%;
+	
+	overflow:auto;
+	top: 0px;
+	bottom: 50px;
+}
+/*#logging-controls-container*/
+.control-container
+{
+	position:absolute;
+	bottom: 0;
+	width: 100%;
+	height:50px;
+}
+
+#logging-controls
+{
+	/*position: absolute;*/
+	
+	width:intrinsic; /* Does not work on IE */
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#add-graph-container
+{
+
+}
+#add-graph
+{
+	width:intrinsic; /* Does not work on IE */
+	margin-right:auto;
+	margin-left:auto;
+}
+

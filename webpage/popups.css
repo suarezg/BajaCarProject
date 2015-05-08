@@ -1,0 +1,28 @@
+.popup
+{
+	display:none;
+	height:auto; width:380px;
+	padding:10px;
+	position:fixed; top:50%; left:50%; margin-top:-200px; margin-left:-200px;
+	background-color:rgb(255,255,255);
+	border:3px solid black;
+	border-radius:25px;
+	box-shadow:5px 5px 5px rgb(50,50,50);
+	z-index:5;
+	text-align:center;
+}
+
+#dark_bkgnd /* dark background - obscures page while popup is present */
+{
+	display:none;
+	width:100%; height:100%;
+	position:fixed; top:0px; left:0px;
+	background-color:rgb(0,0,0);
+	opacity:0.65;
+	z-index:1;
+}
+
+#noprofilesmessage
+{
+	display:none;
+}
